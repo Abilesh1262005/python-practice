@@ -1,0 +1,8 @@
+Usinf min method:
+
+n=int(input("Enter total numbers:"))
+nums=[]
+for i in range(n):
+    num=int(input("Enter a number:"))
+    nums.append(num)
+print("Largest number:",min(nums))
