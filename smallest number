@@ -1,4 +1,4 @@
-Usinf min method:
+Using min method:
 
 n=int(input("Enter total numbers:"))
 nums=[]
@@ -6,3 +6,13 @@ for i in range(n):
     num=int(input("Enter a number:"))
     nums.append(num)
 print("Largest number:",min(nums))
+
+Without using min method:
+
+n=int(input("Enter total numbers:"))
+small=int(input("Enter number:"))
+for i in range(n-1):
+    num=int(input("Enter a number:"))
+    if num<small:
+        small=num
+print("The smallest number is:",small)
