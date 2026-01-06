@@ -1,3 +1,5 @@
+without using max method:
+
 n=int(input("Enter total numbers:"))
 big=int(input("Enter number:"))
 for i in range(n-1):
