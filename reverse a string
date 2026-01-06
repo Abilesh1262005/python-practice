@@ -1,0 +1,12 @@
+method 1:
+n=input("Enter a word:")
+rev=''
+for ch in n:
+    rev=ch+rev
+print("reversed word:",rev)
+
+(or)
+
+method 2:
+n=input("Enter a word:")
+print(n[::-1])
