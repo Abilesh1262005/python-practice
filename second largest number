@@ -1,0 +1,6 @@
+n=int(input("Enter total number:"))
+nums=[]
+for i in range(n):
+    nums.append(int(input("Enter a number:")))
+nums.sort()
+print("Second largest number in a list:",nums[-2])
