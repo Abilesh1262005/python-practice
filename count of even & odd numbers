@@ -1,0 +1,13 @@
+n = int(input("Enter total number: "))
+nums = []
+for i in range(n):
+    nums.append(int(input("Enter number: ")))
+even_count=0
+odd_count=0
+for x in nums:
+    if x % 2==0:
+        even_count+=1
+    else:
+        odd_count+=1
+print("even_count:",even_count)
+print("odd_count:",odd_count)
